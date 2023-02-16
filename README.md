@@ -12,4 +12,4 @@
 # Executing tests
 
           docker run -it image_id npm run test
-<img width="922" alt="Screen Shot 2023-02-16 at 2 12 36 PM" src="https://user-images.githubusercontent.com/69278312/219381381-9f1527c3-acd0-42e6-a93b-b1cb7aacc971.png">
+<img width="925" alt="Screen Shot 2023-02-16 at 2 43 18 PM" src="https://user-images.githubusercontent.com/69278312/219381464-346b972b-0934-4d27-8243-cf7311f0e3e0.png">
