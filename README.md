@@ -13,3 +13,9 @@
 
           docker run -it image_id npm run test
 <img width="925" alt="Screen Shot 2023-02-16 at 2 43 18 PM" src="https://user-images.githubusercontent.com/69278312/219381464-346b972b-0934-4d27-8243-cf7311f0e3e0.png">
+
+# Live Updating Tests
+
+          docker exec -it image_id npm run test
+          
+<img width="900" alt="Screen Shot 2023-02-16 at 2 58 59 PM" src="https://user-images.githubusercontent.com/69278312/219385235-7ac1feeb-dc24-4913-ac03-b7df8e58eb7a.png">
