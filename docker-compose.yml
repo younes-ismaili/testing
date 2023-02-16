@@ -1,5 +1,6 @@
 version: '3'
 services:
+#the first container responsible for hosting development server
   web:
     build:
       context: .
@@ -9,3 +10,12 @@ services:
     volumes:
       - /app/node_modules
       - .:/app
+# the secend container responsible for runing or testing 
+  tests:
+    build:
+      context: . 
+      dockerfile: Dockerfile.dev
+    volumes:
+      - /app/node_modules
+      - .:/app
+    command: ["npm", "run", "test"] 
